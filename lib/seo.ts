@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { BUSINESS } from "./business";
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://max-ai-personal-system.cuddly-daisy-4498.chatgpt.site";
+  "https://max-ai-personal-system.uzairumair722.chatgpt.site";
 export const isIndexable = process.env.NEXT_PUBLIC_INDEXABLE === "true";
 export const publicRoutes = [
   "/",

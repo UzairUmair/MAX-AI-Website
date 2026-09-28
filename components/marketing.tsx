@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Mic,
   BrainCircuit,
@@ -269,28 +270,78 @@ export function Memory() {
   );
 }
 export function Screenshots() {
+  const screenshots = [
+    {
+      name: "Core activity",
+      detail: "Live execution telemetry",
+      src: "/product-screenshots/activity-telemetry.png",
+      alt: "MAX AI activity screen showing execution events, statuses, categories, and latency",
+    },
+    {
+      name: "Live voice",
+      detail: "Interruptible voice workspace",
+      src: "/product-screenshots/live-voice.png",
+      alt: "MAX AI live voice panel with conversation history, suggested actions, and microphone controls",
+    },
+    {
+      name: "Screen control",
+      detail: "Guarded local commands",
+      src: "/product-screenshots/screen-control.png",
+      alt: "MAX AI screen control page with fast path, vision fallback, safety gate, and command input",
+    },
+    {
+      name: "Math & media",
+      detail: "Solver and file analysis",
+      src: "/product-screenshots/math-media.png",
+      alt: "MAX AI math solver and local image, PDF, and ZIP analysis tools",
+    },
+    {
+      name: "Automations",
+      detail: "Rules with dry runs",
+      src: "/product-screenshots/automations.png",
+      alt: "MAX AI automation rules showing triggers, actions, dry-run buttons, and enable switches",
+    },
+    {
+      name: "System & voice",
+      detail: "Voice and device controls",
+      src: "/product-screenshots/system-voice.png",
+      alt: "MAX AI system configuration with voice output, microphone selection, and provider status",
+    },
+    {
+      name: "AI providers",
+      detail: "Encrypted model vault",
+      src: "/product-screenshots/ai-models.png",
+      alt: "MAX AI provider settings with encrypted API-key cards and connection status",
+    },
+  ];
+
   return (
     <div className="screenshot-grid">
-      {[
-        "Core",
-        "Live Voice",
-        "Memory",
-        "Command Center",
-        "Contacts",
-        "Settings",
-      ].map((name, i) => (
-        <div className="screenshot-frame" key={name}>
-          <div className="screenshot-empty">
-            <Monitor size={27} aria-hidden="true" />
-            <span>SCREENSHOT COMING SOON</span>
-          </div>
-          <div className="screenshot-label">
+      {screenshots.map((screenshot, i) => (
+        <figure className="screenshot-frame" key={screenshot.name}>
+          <a
+            className="screenshot-image-link"
+            href={screenshot.src}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`Open full-size ${screenshot.name} screenshot`}
+          >
+            <Image
+              className="screenshot-image"
+              src={screenshot.src}
+              alt={screenshot.alt}
+              width={1920}
+              height={1080}
+              sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw"
+            />
+          </a>
+          <figcaption className="screenshot-label">
             <span>
-              0{i + 1} / {name}
+              {String(i + 1).padStart(2, "0")} / {screenshot.name}
             </span>
-            <span>Placeholder</span>
-          </div>
-        </div>
+            <span>{screenshot.detail}</span>
+          </figcaption>
+        </figure>
       ))}
     </div>
   );

@@ -61,7 +61,7 @@ export default function Features() {
         <SectionHeading
           label="A LOOK INSIDE"
           title="Built for Windows."
-          description="Core, voice, memory, commands, contacts, and settings. These labeled frames reserve space for verified product screenshots supplied later."
+          description="Real product screens show MAX AI's voice, activity, commands, automations, file tools, and provider settings. Select any image to view it full size."
         />
         <Screenshots />
         <p className="fine section-link">

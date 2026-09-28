@@ -8,9 +8,9 @@ Prepared 26 September 2026. Scope follows the latest Phase 1 + SEO briefs, which
 - Separate Next.js 16.3.6 / React 19.2.8 / TypeScript / Tailwind 4 project with Framer Motion 13.4.4 and named Lucide icons. npm lockfile records actual dependency versions.
 - Pages: Home, Features, How It Works, Demo, Pricing, FAQ, Contact, Privacy, Terms, Refund Policy draft, plus a real 404 page, sitemap and robots.
 - Black/charcoal and gold/amber centralized design tokens, readable Geist typography, responsive sticky navigation, reusable cards/CTAs, reduced-motion handling, and an original lightweight orbital hero.
-- Homepage includes the product definition, six-step action flow, confirmation example, natural-language commands, Pakistani Dost, synthetic memory preview, six labeled screenshot placeholders, pricing, privacy/control, FAQ and final CTA.
+- Homepage includes the product definition, six-step action flow, confirmation example, natural-language commands, Pakistani Dost, synthetic memory preview, seven real product screenshots, pricing, privacy/control, FAQ and final CTA.
 - Voice preview is a frontend-only simulation with Listening/Thinking/Speaking controls. It requests no microphone and performs no real command.
-- Original 1200×630 social preview is included. Real sanitized product screenshots remain an owner-supplied asset task; no fake screenshots are presented.
+- Original 1200×630 social preview is included. Seven owner-supplied product screenshots are presented with captions, responsive sizing, useful alternative text, and full-size links.
 
 ## Commercial flow
 
@@ -78,7 +78,7 @@ Home SoftwareApplication JSON-LD uses Windows/ProductivityApplication and two cu
 
 The private review build is complete for this phase. **Public sales launch remains pending** finalized seller identity, refund rules, privacy retention/request process, device/license limits, upgrade terms, verified Windows requirements, and a canonical public domain choice. Legal pages explicitly identify draft sections. Do not expose unfinished policies as finalized public terms.
 
-Real sanitized screenshots can replace the labeled frames when supplied. Android is not offered. Automated accounts, trial authority, licensing, downloads and payment integrations remain intentionally deferred; see `FUTURE-COMMERCE.md`.
+Real product screenshots now replace the original labeled frames on the Home and Features pages. Android is not offered. Automated accounts, trial authority, licensing, downloads and payment integrations remain intentionally deferred; see `FUTURE-COMMERCE.md`.
 
 ## Actual rendered page metadata
 

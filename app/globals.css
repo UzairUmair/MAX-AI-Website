@@ -729,24 +729,39 @@ h1 {
   gap: 22px;
 }
 .screenshot-frame {
+  margin: 0;
   border: 1px solid var(--border);
   border-radius: 6px;
   overflow: hidden;
-}
-.screenshot-empty {
-  aspect-ratio: 1.75;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
   background: var(--background-elevated);
-  color: var(--text-muted);
-  font: 0.75rem var(--font-mono);
-  letter-spacing: 0.03em;
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease;
 }
-.screenshot-empty > svg {
-  color: var(--gold-muted);
+.screenshot-frame:hover {
+  border-color: var(--gold-muted);
+  transform: translateY(-2px);
+}
+.screenshot-image-link {
+  aspect-ratio: 1.75;
+  display: block;
+  overflow: hidden;
+  background: #050505;
+}
+.screenshot-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 220ms ease;
+}
+.screenshot-image-link:hover .screenshot-image,
+.screenshot-image-link:focus-visible .screenshot-image {
+  transform: scale(1.018);
+}
+.screenshot-image-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: -2px;
 }
 .screenshot-label {
   display: flex;
@@ -757,6 +772,7 @@ h1 {
 }
 .screenshot-label > span:last-child {
   color: var(--text-muted);
+  text-align: right;
 }
 .pricing-intro {
   display: flex;

@@ -35,7 +35,7 @@ Private/staging previews default to `NEXT_PUBLIC_INDEXABLE=false`. Before a publ
 
 ## Screenshots and claims
 
-The six screenshot frames are explicitly labeled placeholders, as requested, awaiting sanitized real images. Illustrative conversations and memory entries are fictional. No private MAX contacts, emails, memories, sessions, logs, keys or executables were copied. Features are described with beta/build limitations; no unverified model list, hardware minimum, delivery verification, ratings or user counts are claimed.
+The screenshot gallery uses seven owner-supplied product images selected to avoid publishing visible contacts, chat history, or personal memory entries. Illustrative conversations and memory entries elsewhere on the site are fictional. No private MAX contacts, emails, memories, sessions, logs, keys or executables were copied. Features are described with beta/build limitations; no unverified model list, hardware minimum, delivery verification, ratings or user counts are claimed.
 
 ## Public launch decisions
 

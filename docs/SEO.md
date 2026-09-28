@@ -35,7 +35,7 @@ The sitemap includes nine marketing/legal routes, never future accounts, downloa
 
 ## Performance and images
 
-The headline and core copy are statically rendered. The hero orb is lightweight CSS geometry, with no video, WebGL, stock image or AI call. Fonts are optimized/self-hosted by Next. Icons are named imports. Motion honors `prefers-reduced-motion`. The generated social card is 1200×630 and is not a critical page asset. Screenshots are labeled aspect-ratio placeholders until real images are supplied; use descriptive names, explicit dimensions, responsive sizes and useful alt text when adding them.
+The headline and core copy are statically rendered. The hero orb is lightweight CSS geometry, with no video, WebGL, stock image or AI call. Fonts are optimized/self-hosted by Next. Icons are named imports. Motion honors `prefers-reduced-motion`. The generated social card is 1200×630 and is not a critical page asset. Real product screenshots use descriptive filenames, explicit dimensions, responsive sizes, and useful alt text.
 
 ## Validation
 

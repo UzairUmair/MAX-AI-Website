@@ -35,7 +35,7 @@ Private/staging previews default to `NEXT_PUBLIC_INDEXABLE=false`. Before a publ
 
 ## Screenshots and claims
 
-The screenshot gallery uses seven owner-supplied product images selected to avoid publishing visible contacts, chat history, or personal memory entries. Illustrative conversations and memory entries elsewhere on the site are fictional. No private MAX contacts, emails, memories, sessions, logs, keys or executables were copied. Features are described with beta/build limitations; no unverified model list, hardware minimum, delivery verification, ratings or user counts are claimed.
+The gallery uses thirteen cropped, privacy-edited product previews based on owner-supplied screenshots. Personal data is blurred into the image pixels, including in full-size links. See `SCREENSHOT-EDITING.md` for the editing brief and limitations. Illustrative conversations and memory entries elsewhere on the site are fictional. Features are described with beta/build limitations; the Android view remains explicitly coming soon.
 
 ## Public launch decisions
 

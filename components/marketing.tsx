@@ -272,6 +272,12 @@ export function Memory() {
 export function Screenshots() {
   const screenshots = [
     {
+      name: "Core hub",
+      detail: "Your command workspace",
+      src: "/product-screenshots/core-hub.png",
+      alt: "MAX core workspace with system health, central orb, and a privacy-blurred contact directory",
+    },
+    {
       name: "Core activity",
       detail: "Live execution telemetry",
       src: "/product-screenshots/activity-telemetry.png",
@@ -282,6 +288,30 @@ export function Screenshots() {
       detail: "Interruptible voice workspace",
       src: "/product-screenshots/live-voice.png",
       alt: "MAX AI live voice panel with conversation history, suggested actions, and microphone controls",
+    },
+    {
+      name: "WhatsApp",
+      detail: "Connected communications",
+      src: "/product-screenshots/whatsapp.png",
+      alt: "MAX WhatsApp connection and messaging controls with account details and messages blurred",
+    },
+    {
+      name: "Contacts",
+      detail: "Contact and alert controls",
+      src: "/product-screenshots/contacts.png",
+      alt: "MAX contact book with a blank contact form and saved-contact alert preferences",
+    },
+    {
+      name: "Chat history",
+      detail: "Search and manage history",
+      src: "/product-screenshots/chat-history.png",
+      alt: "MAX conversation archive with search and deletion controls and private conversations blurred",
+    },
+    {
+      name: "Memory bank",
+      detail: "User-controlled memory",
+      src: "/product-screenshots/memory-bank.png",
+      alt: "MAX memory bank with search, saved memory cards and topology; personal entries blurred",
     },
     {
       name: "Screen control",
@@ -313,6 +343,12 @@ export function Screenshots() {
       src: "/product-screenshots/ai-models.png",
       alt: "MAX AI provider settings with encrypted API-key cards and connection status",
     },
+    {
+      name: "Device fleet",
+      detail: "Android · coming soon",
+      src: "/product-screenshots/device-fleet.png",
+      alt: "MAX device fleet page explicitly showing Android integration is still in development",
+    },
   ];
 
   return (
@@ -330,9 +366,9 @@ export function Screenshots() {
               className="screenshot-image"
               src={screenshot.src}
               alt={screenshot.alt}
-              width={1920}
-              height={1080}
-              sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw"
+              width={1400}
+              height={1120}
+              sizes="(max-width: 767px) 100vw, 50vw"
             />
           </a>
           <figcaption className="screenshot-label">

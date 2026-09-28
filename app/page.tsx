@@ -175,7 +175,7 @@ export default function Home() {
         <SectionHeading
           label="06 / INSIDE THE APP"
           title="Built for your Windows workspace."
-          description="Explore real screens from MAX AI, including live voice, guarded computer control, automations, file tools, and encrypted provider settings."
+          description="Explore MAX AI’s workspace, voice, memory, communications, and controls. These product previews are cropped and edited for privacy, with personal details blurred. Select an image to view it full size."
         />
         <Screenshots />
         <p className="fine section-link">

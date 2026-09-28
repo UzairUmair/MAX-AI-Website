@@ -8,9 +8,9 @@ Prepared 26 September 2026. Scope follows the latest Phase 1 + SEO briefs, which
 - Separate Next.js 16.3.6 / React 19.2.8 / TypeScript / Tailwind 4 project with Framer Motion 13.4.4 and named Lucide icons. npm lockfile records actual dependency versions.
 - Pages: Home, Features, How It Works, Demo, Pricing, FAQ, Contact, Privacy, Terms, Refund Policy draft, plus a real 404 page, sitemap and robots.
 - Black/charcoal and gold/amber centralized design tokens, readable Geist typography, responsive sticky navigation, reusable cards/CTAs, reduced-motion handling, and an original lightweight orbital hero.
-- Homepage includes the product definition, six-step action flow, confirmation example, natural-language commands, Pakistani Dost, synthetic memory preview, seven real product screenshots, pricing, privacy/control, FAQ and final CTA.
+- Homepage includes the product definition, six-step action flow, confirmation example, natural-language commands, Pakistani Dost, synthetic memory preview, thirteen privacy-edited product previews, pricing, privacy/control, FAQ and final CTA.
 - Voice preview is a frontend-only simulation with Listening/Thinking/Speaking controls. It requests no microphone and performs no real command.
-- Original 1200×630 social preview is included. Seven owner-supplied product screenshots are presented with captions, responsive sizing, useful alternative text, and full-size links.
+- Original 1200×630 social preview is included. Thirteen owner-supplied product views are cropped and privacy-edited, with captions, responsive sizing, useful alternative text, and full-size links. See `SCREENSHOT-EDITING.md` for the September 28 update.
 
 ## Commercial flow
 

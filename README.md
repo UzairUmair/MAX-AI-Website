@@ -69,6 +69,6 @@ Browser tests use an isolated headless Chromium session, launch a local static p
 
 ## Before public sales
 
-The preview is owner-private and noindex. Seven owner-supplied product screenshots are included; screenshots containing visible contacts, chat history, or personal memory entries remain excluded. Finalize the legal seller identity, refund rules, privacy retention/request process, license/device and update policy, and Windows requirements. Then configure the approved canonical domain, enable indexing, rebuild and review public deployment settings. Do not publish draft policies as finalized promises.
+The preview is owner-private and noindex. Thirteen cropped, privacy-edited product previews are included; personal details are blurred into the published images. See [screenshot preparation](docs/SCREENSHOT-EDITING.md). Finalize the legal seller identity, refund rules, privacy retention/request process, license/device and update policy, and Windows requirements. Then configure the approved canonical domain, enable indexing, rebuild and review public deployment settings. Do not publish draft policies as finalized promises.
 
 See [architecture](docs/ARCHITECTURE.md), [SEO setup](docs/SEO.md), [future commerce](docs/FUTURE-COMMERCE.md), and [validation report](docs/FINAL-REPORT.md).
